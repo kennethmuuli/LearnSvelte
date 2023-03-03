@@ -1,21 +1,28 @@
 
-// import App from './App.svelte'
+//IMPORTIMINE
+import './style.scss'
+import App from './App.svelte';
 
-// const app = new App({
-//   target: document.getElementById('app'),
-// })
+const app = new App({
+  target: document.getElementById('app'),
+})
 
-// export default app
+export default app;
 
 
 //------ Tunnis ------
-//logib brauseri konsooli
-console.log("hello");
 
-//naide ES impordist
-//impordi koik * asjad <muutujana>, ./kust
-import hello from './hello.js';
-hello.hello('esmodule');
+
+
+
+//EXPORTING
+//logib brauseri konsooli
+// console.log("hello");
+
+// //naide ES impordist
+// //impordi koik * asjad <muutujana>, ./kust
+// import hello from './hello.js';
+// hello.hello('esmodule');
 
 //naide common impordist AGA Vite seda ei toeta
 // let hello2 = require('./hello2.js');

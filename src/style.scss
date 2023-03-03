@@ -1,0 +1,10 @@
+/* Lisatud tunnis */
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+$button-border-width: 30px;
+$bgcolor: coral;
+
+html {
+    background-color: lighten($bgcolor, 10%);
+}
